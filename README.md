@@ -3,7 +3,7 @@
 
 ---
 
-## 🚀 Overview
+##  Overview
 This repository contains our solution developed for the **Shell.ai Hackathon for Sustainable and Affordable Energy 2025**.  
 The challenge focused on predicting the final properties of complex fuel blends using machine learning techniques to enable faster, safer, and more sustainable fuel formulation for next-generation low-carbon fuels such as Sustainable Aviation Fuels (SAFs).
 
@@ -17,7 +17,7 @@ Our team ranked **among the Top 65 teams** in the hackathon.
 
 ---
 
-## 🧩 Problem Statement
+##  Problem Statement
 Fuel blending is a complex, high-dimensional process where the final properties of a blend depend on non-linear interactions between multiple fuel components and their proportions. Accurate prediction of these properties is essential to ensure safety, performance, regulatory compliance, and sustainability.
 
 The objective of this challenge was to develop machine learning models capable of predicting **10 final blend properties** based on:
@@ -28,7 +28,7 @@ These predictive models enable rapid evaluation of blend combinations, reduce ex
 
 ---
 
-## 📊 Dataset Description
+##  Dataset Description
 The dataset provided for the hackathon consisted of:
 
 ### `train.csv`
@@ -49,7 +49,7 @@ The dataset provided for the hackathon consisted of:
 
 ---
 
-## 🛠️ Methodology
+##  Methodology
 The solution followed a structured machine learning workflow:
 
 1. **Exploratory Data Analysis (EDA)**  
@@ -74,7 +74,7 @@ The solution followed a structured machine learning workflow:
 
 ---
 
-## 📈 Models Implemented
+##  Models Implemented
 - Artificial Neural Network (ANN)
 - CatBoost
 - Random Forest
@@ -83,7 +83,7 @@ The solution followed a structured machine learning workflow:
 
 ---
 
-## 📏 Evaluation Metric
+##  Evaluation Metric
 
 Model performance is evaluated using **Mean Absolute Percentage Error (MAPE)**:
 
@@ -101,7 +101,7 @@ Lower MAPE values indicate better predictive accuracy.
 
 ---
 
-## 🧪 Results
+##  Results
 - Multiple machine learning models were trained and validated
 - Ensemble and boosting-based models effectively captured non-linear relationships in fuel blend data
 - ANN models were explored to model higher-order feature interactions
@@ -111,7 +111,7 @@ Lower MAPE values indicate better predictive accuracy.
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 ```text
 ├── data/              # Dataset descriptions (no raw data included)
 ├── notebooks/         # EDA and model experimentation
