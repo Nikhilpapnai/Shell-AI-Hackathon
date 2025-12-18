@@ -84,13 +84,20 @@ The solution followed a structured machine learning workflow:
 ---
 
 ## 📏 Evaluation Metric
-Model performance was evaluated using **Mean Absolute Percentage Error (MAPE)**:
 
-\[
-MAPE = \frac{1}{n} \sum_{i=1}^{n} \left| \frac{y_i - \hat{y}_i}{y_i} \right|
-\]
+Model performance is evaluated using **Mean Absolute Percentage Error (MAPE)**:
 
-Lower MAPE indicates better predictive accuracy.
+$$
+\text{MAPE} = \frac{1}{n} \sum_{i=1}^{n} \left| \frac{y_i - \hat{y}_i}{y_i} \right|
+$$
+
+where:
+- \( y_i \) is the ground-truth value  
+- \( \hat{y}_i \) is the predicted value  
+- \( n \) is the total number of samples  
+
+Lower MAPE values indicate better predictive accuracy.
+
 
 ---
 
